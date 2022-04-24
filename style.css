@@ -10,11 +10,18 @@ header p{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-
-    
+}
+header a{
+    color:purple;
+    border:4px solid darkred;
+    padding:7px;
+    border-radius:50px;
+}
+header a:hover{
+    background-color:rgb(240, 179, 179);
 }
 .text{
-    background-color:rgb(39, 223, 207);
+    background-color:rgb(144, 243, 233);
     font-family: 'Courier New', Courier, monospace;
 }
 .gal{
@@ -44,6 +51,7 @@ nav a{
 }
 .h1{
     text-align: center;
+    background-color: rgb(144, 236, 190);
 }
 main{
     margin:-21px 0px 0px 0px;
@@ -51,7 +59,7 @@ main{
 .rek{
     text-align: center;
     border: 10px solid black;
-    background-color: chartreuse;
+    background-color: chartreuse ;
 }
 .kll{
     text-align: center;
@@ -78,4 +86,7 @@ nav a:hover{
 }
 .yui:hover{
  opacity:1;
+}
+.qwe{
+    border:1px solid black;
 }
